@@ -11,9 +11,9 @@ author: nilofe
 
 ## Commands Terraform 
 
-```bash
+~~~bash
 terraform graph | dot -Tsvg > image.svg
-```
+~~~
 La opción ```graph``` sé utiliza para mostrar un gráfico de ejecución visual de los recursos
 de terraform según la configuración actual o un plan de ejecución.
 El comando ```dot``` es parte de una visualización parar generar representaciones visuales de gráficos
