@@ -11,7 +11,7 @@ author: nilofe
 
 ## Commands Terraform 
 
-```Terraform
+```hcl
 terraform graph | dot -Tsvg > image.svg
 ```
 La opción ```graph``` sé utiliza para mostrar un gráfico de ejecución visual de los recursos
@@ -19,11 +19,11 @@ de terraform según la configuración actual o un plan de ejecución.
 El comando ```dot``` es parte de una visualización parar generar representaciones visuales de gráficos
 descritos en el lenguaje ```dot```.
 
-####Ejemplo
+#### Ejemplo
 
 [image.svg](../sd.svg)
 
-```Bash
+```bash
 dot -Tsvg input.dot -o outoput.svg
 ```
 Este es un comando que forma el ```input.dot``` archivo. Lo convierte a formato SVG y guarda la 
