@@ -11,7 +11,7 @@ author: nilofe
 
 ## Commands Terraform 
 
-```hcl
+```bash
 terraform graph | dot -Tsvg > image.svg
 ```
 La opción ```graph``` sé utiliza para mostrar un gráfico de ejecución visual de los recursos
