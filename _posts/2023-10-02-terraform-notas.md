@@ -21,8 +21,7 @@ descritos en el lenguaje ```dot```.
 
 #### Ejemplo
 
-[image.svg](../sd.svg)
-[Resultado](https://nilofe.github.io/oks/sd.svg)
+[image.svg](https://surf-fern-778.notion.site/258abe745dac47ac9c39ff54ed64ab96?pvs=4)
 
 ```bash
 dot -Tsvg input.dot -o outoput.svg
